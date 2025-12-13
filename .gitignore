@@ -99,3 +99,105 @@ out/
 *.tmp
 *.bak
 *.cache
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# PyTorch / ML artifacts
+# =========================
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Embeddings / checkpoints / metrics
+*_embeddings.npy
+*_keys.npy
+*_metrics.npy
+*.npy
+*.npz
+
+# TensorBoard
+runs/
+lightning_logs/
+
+# =========================
+# Experiment outputs
+# =========================
+outputs/
+logs/
+checkpoints/
+wandb/
+mlruns/
+
+# =========================
+# Data (local only)
+# =========================
+data/
+datasets/
+raw_data/
+processed_data/
+
+# Spotify crawling results
+spotify_data/
+playlists/
+tracks/
+
+# =========================
+# FastAPI / Backend
+# =========================
+.env
+.env.*
+*.log
+
+# Uvicorn / Gunicorn
+*.pid
+
+# =========================
+# Supabase / Secrets
+# =========================
+supabase/.env
+supabase/.env.*
+
+# =========================
+# Frontend / Build
+# =========================
+node_modules/
+dist/
+build/
+.next/
+out/
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Misc
+# =========================
+*.tmp
+*.bak
+*.cache
