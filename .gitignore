@@ -201,3 +201,10 @@ out/
 *.tmp
 *.bak
 *.cache
+
+# =========================
+# Large data files (GitHub limit)
+# =========================
+*.csv
+*.npy
+*.npz
