@@ -40,9 +40,8 @@
         
     - in-batch Negative로 학습하며 random Negative를 배치에 추가한 경우와도 비교
 
-![image.png](attachment:e0f3fe3e-e623-4b48-8673-7aa105ffcb45:image.png)
+<img width="724" height="203" alt="image" src="https://github.com/user-attachments/assets/0d068e19-c472-407e-8b92-992f48bbc17e" />
 
-![image.png](attachment:849b6fbd-5cad-4071-a409-94e05b663a8c:image.png)
 
 | **Metric** | Item2vec | LightGCN | simGCL | **simGCL+randNeg** |
 | --- | --- | --- | --- | --- |
@@ -57,7 +56,7 @@
 
 ### **Two-Tower Model**
 
-![image.png](attachment:4cbed262-9751-4a28-8337-8f75bcfa7386:image.png)
+<img width="305" height="261" alt="image" src="https://github.com/user-attachments/assets/611940bc-fcc4-414c-a257-673c5bc5a8ab" />
 
 - **Architecture**
     - **User Tower**
@@ -82,7 +81,7 @@
     
     </aside>
     
-    ![image.png](attachment:2b6bce3b-3cfd-4b9c-a6d3-087cd541a43a:image.png)
+<img width="603" height="270" alt="image" src="https://github.com/user-attachments/assets/031e42ea-d57c-470c-ba95-91bd2b932e19" />
     
 
 # Keyword search
@@ -105,7 +104,7 @@
     - ANN search(HNSW)
     - MMR 기반으로 검색의 다양성 확보
 
-![image.png](attachment:3aae4ac1-5c95-40a9-8dee-a685df484e60:image.png)
+<img width="595" height="260" alt="image" src="https://github.com/user-attachments/assets/ebf0d2e5-3a16-461c-8da5-63b9d927ea03" />
 
 **참고 논문**
 
