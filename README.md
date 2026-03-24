@@ -35,9 +35,7 @@
         **uniformity 증가, alignment 개선**
         
     - 결과적으로 더 **균형 잡힌 representation** 형성
-        
-        $\mathcal{L}_{\text{uniform}} = \log \mathbb{E}_{x,y \sim p_{\text{data}}} \left[ e^{-2 \| f(x) - f(y) \|^2} \right]$
-        
+                
     - in-batch Negative로 학습하며 random Negative를 배치에 추가한 경우와도 비교
 
 <img width="724" height="203" alt="image" src="https://github.com/user-attachments/assets/0d068e19-c472-407e-8b92-992f48bbc17e" />
